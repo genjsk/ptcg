@@ -16,16 +16,3 @@
 | [策略报告.md](策略报告.md) | Markdown | 约 26 KB | 由 DOCX 转写的 Markdown 版本，保留了标题层级、有序/无序列表、表格和粗体，适合检索、引用和 Git 版本管理。 |
 | [submission_v8.tar.gz](submission_v8.tar.gz) | 压缩包 | 约 16 KB | 竞赛最终提交包（v8），解压后为 `main.py`（智能体实现）和 `deck.csv`（60 张卡组清单）。 |
 | [README.md](README.md) | Markdown | 约 2 KB | 本说明文件。 |
-
-## 文件之间的关系
-
-- **`策略报告.docx` 是报告源文件**，`策略报告.pdf` 和 `策略报告.md` 都对应同一版内容；如需改正文，建议先改 DOCX，再重新导出 PDF 和 Markdown。
-- **`策略报告.md` 适合快速查找内容**，但它是自动转写版本，复杂排版（如页眉页脚、精确字号）以 DOCX/PDF 为准。
-- **`submission_v8.tar.gz` 与报告相互独立**，是可直接提交/复现的代码与卡组包，不依赖报告文件。
-
-## 使用建议
-
-- 阅读报告：优先打开 `策略报告.pdf`。
-- 修改内容：编辑 `策略报告.docx`，需要时再重新生成 PDF/Markdown。
-- 按章节搜索：使用 `策略报告.md`。
-- 复现提交：解压 `submission_v8.tar.gz`，得到 `main.py` 和 `deck.csv`。
